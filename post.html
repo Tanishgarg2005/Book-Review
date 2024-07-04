@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="reviews.html">Reviews</a> |
+        <a href="post.html">Post</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Search Books" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <a href="Login.html">Login</a> |
+        <a href="signup.html">signup</a>
+        <hr>
+    </nav>
+</header>
+<body>
+    <div class="banner">
+        <img src="post.png" alt="banner" height="500" width="100%">
+    </div>
+    <div class="bookreview">
+        <form>
+            <fieldset>
+                <legend>Add Review</legend>
+                <label for="Fname">First Name</label>
+                <input type="text" name="Fname" required>
+                <label for="Lname">Last Name</label>
+                <input type="text" name="Lname" required>
+                <hr>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" required>
+                <hr>
+                <label for="bookname">Book Name</label>
+                <input type="text" name="bookname" required>
+                <label for="Book">Upload Cover</label>
+                <input type="file" name="Book" required>
+                <hr>
+                <label for="Genre">Genre</label>
+                <select name="Book type" id="Genre" required>
+                    <option value="Science Fiction">Science Fiction</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Detective & Mystery">Detective & Mystery</option>
+                    <option value="Horror ">Horror </option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Historical Fiction">Historical Fiction</option>
+                    <option value="Children’s Fiction">Children’s Fiction</option>
+                    <option value="Biography">Biography</option>
+                    <option value="Art & Photography">Art & Photography</option>
+                    <option value="Health & Fitness">Health & Fitness</option>
+                    <option value="Motivational / Inspirational">Motivational / Inspirational</option>
+                    <option value="History">History</option>
+                    <option value="Crafts, Hobbies & Home">Crafts, Hobbies & Home</option>
+                    <option value="Business & Money">Business & Money</option>
+                    <option value="Law & Criminology">Law & Criminology</option>
+                    <option value="Education & Teaching">Education & Teaching</option>
+                    <option value="Religion & Spirituality">Religion & Spirituality</option>
+                    <option value="Politics & Social Sciences">Politics & Social Sciences</option>
+                    <option value="Travel ">Travel </option>
+                </select>
+                <hr>
+                <label for="review">Review</label>
+                <br>
+                <textarea name="review" id="review" placeholder="Write The Review Here" required cols="100"></textarea>
+                <br>
+                <label for="rating">Rating:</label>
+                <div class="rating" >
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5">&starf;&star;&star;&star;&star;</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">&starf;&starf;&star;&star;&star;</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">&starf;&starf;&starf;&star;&star;</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">&starf;&starf;&starf;&starf;&star;</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">&starf;&starf;&starf;&starf;&starf;</label>
+                </div>
+                <br>
+                <input type="submit" onclick="">
+                <input type="reset">      
+        </fieldset>
+
+        </form>
+    </div>
+</body>
+<footer>
+    <hr>
+    <nav>
+        <span>&copy; 2024 Book Reviews. All rights reserved.</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="index.html">Home</a> |
+        <a href="review.html">Reviews</a> |
+        <a href="form.html">Post</a>
+    </nav>
+</footer>
+</html>
